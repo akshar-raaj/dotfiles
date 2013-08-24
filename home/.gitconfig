@@ -1,0 +1,19 @@
+[user]
+	name = Akshar Raaj
+	email = akshar@agiliq.com
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    l = log
+    me = log --author='Akshar Raaj'
+    agiliq = log --author='agiliq'
+    td = log --author='Akshar Raaj' --pretty=format:'%s' --since='6am' --no-merges --reverse
+    ye = log --author='Akshar Raaj' --pretty=format:'%s' --since='1 day before' --no-merges
+[push]
+	default = upstream
+[merge]
+	defaultToUpstream = true
+[color]
+	ui = true
