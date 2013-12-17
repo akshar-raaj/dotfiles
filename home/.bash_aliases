@@ -1,26 +1,13 @@
+alias sc='cd ~/test_project/sourcecode/'
+alias sp='cd ../local/lib/python2.7/site-packages/'
+alias un='cd ~/unifiedsocial/sop/unified_platform'
+alias blog='cd ~/agiliq/blogango/django-blogango/'
+alias agi='cd ~/agiliq/'
+
 alias p='python'
 
 # Git aliases
 alias g='git'
-alias gpl='git pull'
-alias gps='git push'
-alias gst='git status'
-alias gco='git checkout'
-alias gci='git commit'
-alias gl='git log'
-alias gdi='git diff'
-alias gdic='git diff --cached'
-alias gbr='git branch'
-alias gad='git add'
-alias gcim='git commit -m'
-alias gcia='git commit --amend -m'
-alias gtd='git td'
-alias grs='git reset HEAD'
-alias gs='git status'
-alias gf='git fetch'
-alias gag='git log --author="agiliq" --pretty=format:"%s" --since="6am" --no-merges'
-alias gso='git show'
-alias gson='git show --name-only'
 
 alias act='source ../bin/activate'
 alias ac='source ../../bin/activate'
@@ -50,3 +37,7 @@ alias ack='ack-grep'
 export PS1="\e[0;32m\w $ \e[m"
 
 stty -ixon
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
