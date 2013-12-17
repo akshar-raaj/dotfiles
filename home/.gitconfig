@@ -2,8 +2,12 @@
 	name = Akshar Raaj
 	email = akshar@agiliq.com
 [alias]
+    a = add
+    di = diff
+    dic = diff --cached
     co = checkout
     ci = commit
+    cim = commit -m
     st = status
     br = branch
     l = log
