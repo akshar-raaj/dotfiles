@@ -5,6 +5,7 @@
     a = add
     di = diff
     dic = diff --cached
+    f = fetch
     co = checkout
     ci = commit
     cim = commit -m
