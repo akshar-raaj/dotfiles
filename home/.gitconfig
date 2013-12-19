@@ -13,6 +13,7 @@
     br = branch
     l = log
     ps = push
+    so = show
     me = log --author='Akshar Raaj'
     agiliq = log --author='agiliq'
     td = log --author='Akshar Raaj' --pretty=format:'%s' --since='6am' --no-merges --reverse
