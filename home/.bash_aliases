@@ -34,6 +34,8 @@ alias rm='trash-put'
 
 alias ack='ack-grep'
 
+alias myip='curl ifconfig.me'
+
 export PS1="\e[0;32m\w $ \e[m"
 
 stty -ixon
