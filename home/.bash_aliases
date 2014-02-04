@@ -5,6 +5,7 @@ alias blog='cd ~/agiliq/blogango/django-blogango/'
 alias agi='cd ~/agiliq/'
 
 alias p='python'
+alias pm='python manage.py'
 
 # Git aliases
 alias g='git'
@@ -33,6 +34,7 @@ alias dp='fab -u agiliq deploy'
 alias rm='trash-put'
 
 alias ack='ack-grep'
+alias ajs='ack-grep --type=js'
 
 alias myip='curl ifconfig.me'
 
