@@ -38,10 +38,11 @@ alias ajs='ack-grep --type=js'
 
 alias myip='curl ifconfig.me'
 
-export PS1="\e[0;32m\w $ \e[m"
 
 stty -ixon
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+PS1='\e[0;32m\w`__git_ps1` $\e[m '
